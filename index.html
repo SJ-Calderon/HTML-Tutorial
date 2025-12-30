@@ -7,16 +7,46 @@
     </head>
 
     <body>
-        <h1>Containers</h1>
+        <h1>Input and Forms</h1>
 
-        <!-- <span> creates an inline container -->
-        <span>span1</span>
-        <span>span2</span>
+        <!-- <input> will define an input object of the type specified -->
+        <h2>Username:</h2>
+        <input type="text" value="Enter your username" />
+        <h2>Password:</h2>
+        <input type="password" />
 
         <hr />
 
-        <!-- <div> creates a block container -->
-        <div>div1</div>
-        <div>div2</div>
+        <!-- Other examples of inputs -->
+        <input type="date" />
+        <input type="range" />
+        <input type="file" />
+
+        <hr />
+        
+        <!-- Defines a block in which text can be input -->
+        <textarea rows="10" cols="30">
+            Enter a paragraph
+        </textarea>
+
+        <hr />
+        
+        <!-- Buttons -->
+        <!-- Checkbox buttons allow you to select multiple buttons at a time -->
+        <input type="checkbox" />
+        <input type="checkbox" />
+
+        <hr />
+
+        <!-- Radio buttons allow you to only select one of the same name -->
+        <input type="radio" name="btn" />
+        <input type="radio" name="btn" />
+
+        <hr />
+
+        <!-- <form> acts as a wrapper for input tags -->
+        <form>
+            <input type="submit" />
+        </form>
     </body>
 </html>
