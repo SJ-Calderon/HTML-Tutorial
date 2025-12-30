@@ -8,35 +8,36 @@
 
     <!-- The style attribute is used to insert CSS to the HTML object -->
     <body>
-        <h1>Lists</h1>
+        <h1>Tables</h1>
 
-        <h2>Recipe</h2>
+        <table>
+            <!-- Informational tag to separate header from main body of the table -->
+            <thead>
+                <!-- <tr> creates a row in the table -->
+                <tr>
+                    <!-- <th> creates a column in the table -->
+                    <!-- The content between the tags will be formatted for a header in the cell -->
+                    <th>Heading One</th>
+                    <th>Heading Two</th>
+                    <th>Heading Three</th>
+                </tr>
+            </thead>
 
-        <!-- <ol> creates an ordered list (Numbered by default) -->
-        <!-- type can be used to change the way the numbering generates -->
-        <ol type="I">
-            <li>Step 1</li>
-            <li>Step 2</li>
-            <li>Step 3</li>
-        </ol>
-
-        <h2>Fruits</h2>
-
-        <!-- <ul> creates an unordered list (bullet points by default) -->
-        <ul>
-            <!-- <li> specifies a single item in the list -->
-            <li>Apples</li>
-            <li>Oranges</li>
-            <li>Bananas</li>
-        </ul>
-
-        <!-- <dl> creates a description list -->
-        <!-- This type of list allow you to describe the list items -->
-        <dl>
-            <!-- <dt> is equivalent to <li> for description lists -->
-            <dt>Apples</dt>
-            <!-- <dd> describes the <dt> element -->
-            <dd>- They are red</dd>
-        </dl>
+            <!-- Informational tag to separate the main body from the header of the table-->
+            <tbody>
+                <tr>
+                    <!-- <td> creates a column in the table -->
+                    <!-- The content between the tags is the content of the cell -->
+                    <!-- colspan controls how many columns the <td> element will take up -->
+                    <td colspan="2">one</td>
+                    <td>two</td>
+                </tr>
+                <tr>
+                    <td>three</td>
+                    <td>four</td>
+                    <td>five</td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>
