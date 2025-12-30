@@ -8,17 +8,16 @@
 
     <!-- The style attribute is used to insert CSS to the HTML object -->
     <body>
-        <h1>Images</h1>
+        <h1>Videos</h1>
 
-        <!-- <img> inserts an image found at the location specified by src -->
-        <!-- Example of a local image -->
-        <!-- width and height specify the aspect ratio -->
-        <img width="150px" height="150px" src="Pictures/WoodElfFighterMan.png" alt="Wood Elf Fighter" />
+        <!-- Adds a video at the specified path in src -->
+        <!-- This is an exampl of a local video -->
+        <!-- controls inserts controls for the video (pause/play button, full screen button, etc) -->
+        <!-- You can control the size with width/height -->
+        <!-- You can control the initial image using poster -->
+        <video src="" controls width="" poster="">No reference video</video>
 
-        <br />
-
-        <!-- Example of an image from the internet -->
-        <!-- If only one (width/height) is shown, the other will automatically be calculated -->
-        <img width="250" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Cat_in_tree03.jpg/500px-Cat_in_tree03.jpg" alt="Cat in a tree" />
+        <!-- This allows you to embed a Youtube video into the website using iframe -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QtC3Bo9B0yI?si=DfPkjPGj61YIGiLh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </body>
 </html>
