@@ -8,16 +8,35 @@
 
     <!-- The style attribute is used to insert CSS to the HTML object -->
     <body>
-        <h1>Videos</h1>
+        <h1>Lists</h1>
 
-        <!-- Adds a video at the specified path in src -->
-        <!-- This is an exampl of a local video -->
-        <!-- controls inserts controls for the video (pause/play button, full screen button, etc) -->
-        <!-- You can control the size with width/height -->
-        <!-- You can control the initial image using poster -->
-        <video src="" controls width="" poster="">No reference video</video>
+        <h2>Recipe</h2>
 
-        <!-- This allows you to embed a Youtube video into the website using iframe -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QtC3Bo9B0yI?si=DfPkjPGj61YIGiLh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- <ol> creates an ordered list (Numbered by default) -->
+        <!-- type can be used to change the way the numbering generates -->
+        <ol type="I">
+            <li>Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+        </ol>
+
+        <h2>Fruits</h2>
+
+        <!-- <ul> creates an unordered list (bullet points by default) -->
+        <ul>
+            <!-- <li> specifies a single item in the list -->
+            <li>Apples</li>
+            <li>Oranges</li>
+            <li>Bananas</li>
+        </ul>
+
+        <!-- <dl> creates a description list -->
+        <!-- This type of list allow you to describe the list items -->
+        <dl>
+            <!-- <dt> is equivalent to <li> for description lists -->
+            <dt>Apples</dt>
+            <!-- <dd> describes the <dt> element -->
+            <dd>- They are red</dd>
+        </dl>
     </body>
 </html>
